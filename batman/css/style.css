@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+
+.card {
+    text-align: center;
+    max-width: 550px;
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+} 
+
+#critica {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 28px;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(233, 21, 187)
+}
+
+#foto-principal {
+    border: red;
+}
